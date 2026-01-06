@@ -67,6 +67,12 @@ os.chdir(script_dir)
 print(f"[INFO] Working directory: {os.getcwd()}")
 
 # ============================================================================
+# W&B API KEY - Set your API key here
+# Get your key from: https://wandb.ai/authorize
+# ============================================================================
+os.environ['WANDB_API_KEY'] = 'YOUR_WANDB_API_KEY_HERE'
+
+# ============================================================================
 # IMPORTS
 # ============================================================================
 import itertools
