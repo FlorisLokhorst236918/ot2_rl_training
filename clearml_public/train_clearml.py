@@ -46,14 +46,6 @@ Task.add_requirements("stable-baselines3")
 Task.add_requirements("gymnasium")
 Task.add_requirements("pybullet")
 Task.add_requirements("tensorboard")
-Task.add_requirements("torch")
-Task.add_requirements("tqdm")
-Task.add_requirements("shimmy")
-Task.add_requirements("cloudpickle")
-Task.add_requirements("packaging")
-Task.add_requirements("typing_extensions")
-Task.add_requirements("filelock")
-Task.add_requirements("rich")
 
 # Initialize ClearML task
 task = Task.init(
