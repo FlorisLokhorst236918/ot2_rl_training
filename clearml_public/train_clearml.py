@@ -38,6 +38,14 @@ MEMBER_NAMES = {
 }
 member_name = MEMBER_NAMES[args.member]
 
+# Add package requirements BEFORE Task.init()
+Task.add_requirements("numpy", "1.24.3")
+Task.add_requirements("pandas", "2.0.3")
+Task.add_requirements("wandb")
+Task.add_requirements("stable-baselines3")
+Task.add_requirements("gymnasium")
+Task.add_requirements("pybullet")
+
 # Initialize ClearML task
 task = Task.init(
     project_name=f'{args.project_name}/{member_name}',
