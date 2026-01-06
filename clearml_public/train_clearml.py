@@ -70,7 +70,7 @@ print(f"[INFO] Working directory: {os.getcwd()}")
 # W&B API KEY - Set your API key here
 # Get your key from: https://wandb.ai/authorize
 # ============================================================================
-os.environ['WANDB_API_KEY'] = 'YOUR_WANDB_API_KEY_HERE'
+os.environ['WANDB_API_KEY'] = '7b7a17f3abfaefa9ee08ea72387f76ee86e79318'
 
 # ============================================================================
 # IMPORTS
